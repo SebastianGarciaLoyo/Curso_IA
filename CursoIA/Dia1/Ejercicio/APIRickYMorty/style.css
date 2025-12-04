@@ -1,23 +1,95 @@
 
-
-body{
-    background-color: gray;
-    text-align: center;
-    padding: 8rem;
-}
-
-.titulo{
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;      
     color: white;
     text-align: center;
 }
 
-.input1{
-    height: 1.5rem;
-    align-content: center;
+.titulo {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 700;
 }
 
-.buscar1{
-    height: 1.8rem;
-    align-items: center;
+
+.buscador {
+    width: 100%;
+    margin-top: 20px;
 }
+
+.input1 {
+    padding: 12px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #222;
+    color: white;
+}
+
+.buscar1 {
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buscar1:hover {
+    background-color: #ddd;
+}
+
+.contenedor {
+    margin: 40px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+    justify-items: center;
+}
+
+.card {
+    background-color: #1a1a1a;
+    width: 220px;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #bbbbbb;
+}
+
+
+.barra-superior,
+.barra-inferior {
+    width: 100%;
+    height: 10rem;         
+    background-color: black;
+}
+
+
 
