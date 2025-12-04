@@ -1,0 +1,23 @@
+
+
+body{
+    background-color: gray;
+    text-align: center;
+    padding: 8rem;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+}
+
+.input1{
+    height: 1.5rem;
+    align-content: center;
+}
+
+.buscar1{
+    height: 1.8rem;
+    align-items: center;
+}
+
